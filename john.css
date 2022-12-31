@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+/* .portfolio{
+    position: relative;
+} */
+.main1{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #fff;
+    /* position: fixed; */
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-weight: 300;
+    z-index: 1;
+}
+.main1 ul li {
+    list-style: none;
+    padding: 50px 0 0 0 ;
+}
+.main1 i{
+     font-size: 40px;
+     padding: 0px 40px 0 0;
+}
+.main2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+
+}
+
+.main2 .hello h3 {
+    font-weight: 300;
+}
+
+.main2 .hello h1,
+h3 span {
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.main2 .hello .border {
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.main2 .hello .border {
+    margin: 0 0 1.5rem 0;
+}
+
+.main2 .hello a {
+    border: 1px solid #000;
+    padding: 5px 30px;
+    margin: 2rem 0 0 0;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.main2 .hello a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+    z-index: -1;
+}
+
+.main2 .hello a:hover:after {
+    left: 0;
+
+}
+
+.main2 .hello a:hover {
+    color: #fff;
+}
+
+.main2 .hello a i {
+    padding-right: 0.5rem;
+}
+
+.main3 {
+    text-align: center;
+}
+
+.main3 i {
+    padding-left: 0.5rem;
+}
+
+.main4 {
+    background: url(imagese/bg-1.jpg) no-repeat fixed center / cover;
+    color: #fff;
+    margin: 3rem 0;
+    padding: 0 2rem;
+}
+
+.whatido {
+    padding: 3rem 0;
+}
+
+.whatido .dot {
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.whatido h2 {
+    padding: 0.5rem 0;
+    font-weight: 300;
+}
+
+.main4 .computers {
+    display: flex;
+    justify-content: space-between;
+    /* height: 500px; */
+    align-items: center;
+
+}
+
+.main4 .computers .computer {
+    width: 30%;
+    font-size: 20px;
+}
+
+.main4 .computer .computer1 .com1 i,
+.com2 i,
+.com3 i,
+.com4 i {
+    border: 1px solid #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 3rem 0;
+}
+
+.main4 .computer .computer1 p,
+.computer2 p {
+    padding: 1.5rem 0;
+    word-spacing: 8px;
+}
+
+.main4 .computer .computer2 .com3,
+.com4 {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.main4 .computer .computer2 {
+    text-align: end;
+}
+
+.main4 .computer .computer1 .com1,
+.main4 .computer .computer1 .com2,
+.main4 .computer .computer2 .com3,
+.main4 .computer .computer2 .com4 {
+    position: relative;
+}
+
+.main4 .computer .computer1 .com1::before,
+.main4 .computer .computer1 .com2::before,
+.main4 .computer .computer2 .com3::before,
+.main4 .computer .computer2 .com4::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 0.8px;
+    background-color: #fff;
+
+
+}
+
+.main4 .computer .computer1 .com1::before,
+.main4 .computer .computer1 .com2::before {
+    top: 40px;
+    left: 166px;
+}
+
+.main4 .computer .computer2 .com3::before,
+.main4 .computer .computer2 .com4::before {
+    top: 85px;
+    right: 132px;
+}
+
+.main4 .computer .computer1 .com1::after,
+.main4 .computer .computer1 .com2::after,
+.main4 .computer .computer2 .com3::after,
+.main4 .computer .computer2 .com4::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 1px;
+
+
+}
+
+.main4 .computer .computer1 .com1::after {
+    top: 164px;
+    left: 315px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.main4 .computer .computer1 .com2::after {
+    top: -83px;
+    left: 314px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+
+.main4 .computer .computer2 .com3::after {
+    top: 210px;
+    right: 281px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+.main4 .computer .computer2 .com4::after {
+    top: -39px;
+    right: 281px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.main4 .compute img{
+    width:500px;
+    position: absolute;
+    top:82rem;
+    left: 480px;
+}
+.main4 .port{
+    text-align: center;
+}
+.main4 .port a {
+    border-radius: 5px;
+    border:1px solid #fff;
+    padding:20px 40px;
+    display: inline-block;
+    margin:4rem 0;
+    color:#fff;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.main4 .port a i{
+    padding-right: 0.5rem;
+}
+.main4 .port a::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height: 100%;
+    background-color:rgb(255,255,255);
+    transition: all 1s ease;
+    z-index: -1;
+    
+}
+.main4 .port a:hover:after{
+    left: 0;
+}
+.main4 .port a:hover{
+    color:#000;
+}
+.main5{
+    padding:3rem 2rem;
+}
+.main5 .how .howit{
+    width:50px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+   
+
+}
+.main5 .how h2{
+    font-weight: 300;
+}
+.main5 .icon {
+    padding:3rem 0; 
+    font-size: 30px;
+    display: flex;
+    justify-content: center; 
+    
+
+}
+.main5 .icon .ico i,.ico1 i{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    border:2px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 1rem; 
+}
+.main5 .icon .ico{
+    position: relative; 
+}
+.main5 .icon .ico::before{
+    content: '';
+    position: absolute;
+    top:30px;
+    left:77px;
+    width:30px;
+    height: 2px;
+    background-color: #000;
+}
+.main5 .icon .ico i:hover,.ico1 i:hover{
+    background-color: rgb(54, 51, 51);
+    color:#fff;
+}
+.meeting{
+    text-align: center;
+    padding:2rem 0 3rem 0;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding:0 15rem; */
+}
+.people .people1,.people2{
+    width:35%;
+}
+.people .people1 img{
+    width:85%;
+}
+.people .people2 p{
+    font-size: 25px;
+}
+.main6{
+    background: url(imagese/bg-1.jpg) no-repeat fixed center / cover;
+    color:#fff;
+    padding:4rem 2rem;
+}
+.main6 .folio{
+    width:50px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+.main6 .portfolio h2{
+    font-weight: 300;
+}
+.ul ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding:4rem 0;
+}
+.ul ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding:20px;
+    border:1px solid #fff;
+    font-size: 20px;
+    margin:20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+}
+.ul ul li a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height: 100%;
+    transition: all 1s ease;
+    background-color: #fff;
+    z-index: -1;
+}
+.ul ul li a:hover:before{
+    left:0;
+}
+.ul ul li a:hover{
+    color:#000;
+}
+
+.images {
+    width:80%;
+    margin:0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.images .image{
+    width:30%;
+    height: 300px;
+    margin:0.5rem 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.images .image img{
+    width:100%;
+}
+.images .image:hover img{
+    transform: scale(1.6); 
+    transition: all 1s ease;  
+}
+.images .image::after{
+    content: '';
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 1s ease;
+}
+.images .image:hover:after{
+    top:50%;
+}
+.i {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    width: 100%;
+    height:100%;
+    color:#fff;
+    z-index: 1;
+    top: 100%;
+    transition: all 1s ease;
+}
+.images .image:hover .i{
+     top:75%;
+}
+.i i{
+    font-size: 25px;
+}
+.main7{
+    padding:4rem 2rem ;
+}
+.main7 .have{
+    text-align: center;
+}
+.main7 .have1{
+    width:50px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    position: absolute;
+    left:44rem;
+    margin:1rem 0;
+}
+.main7 .let{
+    display: flex;
+    padding:5rem 0;
+    justify-content: space-around;
+    
+}
+.main7 .let .let1{
+    border:1px solid #000;
+    padding:10px;
+    text-align: center;
+    box-shadow:5px 5px 5px lightblue;
+    width:30%;
+    height: 200px;
+}
+.main7 .let .let1 a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:10px;
+    margin:2rem 0;
+    display: inline-block;
+    color:#000;
+    position: relative;
+    overflow: hidden;
+}
+.main7 .let .let1 a::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-100%;
+    background-color: #000;
+    width:100%;
+    height: 100%;
+    transition: all 1s ease;
+    z-index: -1;
+}
+.main7 .let .let1 a:hover:after{
+    left:0;
+}
+.main7 .let .let1 a:hover{
+    color:#fff;
+}
+.main7 .let .let1 a i{
+    padding-right: 0.5rem;
+}
+.main8{
+    padding:5rem 2rem;
+    background: url(imagese/bg-1.jpg) no-repeat fixed center / cover;
+    color: #fff;
+    
+}
+.main8 .who h2{
+    font-weight: 300;
+}
+.main8 .who1{
+    width:50px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+.hell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:3rem 0;
+}
+.hello2{
+    width:65%;
+    padding-right: 11rem;
+}
+.hello2 p{
+    text-align: justify;
+    padding:1rem 0;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+.hello2 h2{
+    font-weight: 300;
+}
+.hello1{
+    width:35%;
+    display: flex;
+    justify-content: center
+}
+.hello1 img{
+    width:70%;
+    border-radius: 50%;
+   
+}
+.download{
+    text-align: center;
+}
+.download a{
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border:1px solid #fff;
+    padding:10px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    margin:4rem 0;
+    display: inline-block;
+    z-index: 1;
+}
+.download a::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+    transition: all 1s ease;
+    z-index: -1;
+    
+}
+.download a:hover:before{
+    left:0;
+}
+.download a:hover{
+    color:#000;
+}
+.download a i{
+    padding-right: 0.5rem;
+}
+.main9 {
+    display: flex;
+    justify-content: center;
+    /* padding:3rem 2rem */
+}
+.myskills{
+    width:50%;
+    background-color: #000;
+    color:#fff;
+    padding:6rem 2rem 6rem 8rem;
+}
+.myskills .skill{
+    width:50px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+.myskills h2{
+    font-weight: 300;
+}
+.myskills p{
+    font-size: 17px;
+    word-spacing: 9px;
+    text-align: justify;
+}
+.myskill{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:4rem 0;
+}
+.myskill .html{
+    width:30%;
+    text-align: center;
+    
+}
+.myskill .html i{
+    font-size: 25px;
+}
+.myskill .html span i{
+    background-color:#fff;
+}
+.myskill .html p{
+    font-size: 20px;
+    padding:1rem 0;
+}
+.main10{
+    padding:80px 32px 10px 32px;
+}
+.main10 .touch{
+    width:50px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+.main10 .keepintouch h2{
+    font-weight: 300;
+}
+.main10 .keepin{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+.main10 .keepin .keepin1{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.main10 .keepin .keepin1 a{
+    text-decoration: none;
+    color:#000;
+}
+.main10 .keepin .keepin1 a:hover{
+    color:rgb(107, 104, 104);
+    transition: all 0.5s ease;
+}
+.main10 .keepin .keepin1 a i{
+    border:1px dotted black;
+    padding:10px;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.main11{
+    padding: 0 2rem;
+}
+.main12{
+    background-color: #000;
+    color:#fff;
+    padding:2rem 2rem;
+}
+.main12 h5 a i{
+    padding-right: 0.5rem;
+}
+.main13 {
+     /* position: fixed;  */
+    /* border:1px solid black; */
+    padding:0 5.5rem;
+    display: flex;
+    justify-content: end;
+}
+.main13 a i{
+      position: fixed;  
+    border:1px solid black;
+    bottom: 1rem;
+    padding:20px;
+    font-size: 20px;
+    background-color: #fff;
+    color:#000;
+}
+.main13 a i:hover{
+    background-color: #000;
+    color:#fff;
+    transition: all 1s ease;
+}
